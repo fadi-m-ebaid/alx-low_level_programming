@@ -2,18 +2,18 @@
 #include <stdlib.h>
 
 /**
- * main: Ruturns all alphabet except e and q
+ * main - Ruturns all alphabet except e and q
  *
  * Return: Alwyas 0 (Success)
  *
  */
-int main (void)
+int main(void)
 {
 	int ch = 'a';
 
 	while (ch <= 'z')
 	{
-		if(ch != 'e' && ch != 'q')
+		if (ch != 'e' && ch != 'q')
 		putchar(ch);
 		ch++;
 	}
