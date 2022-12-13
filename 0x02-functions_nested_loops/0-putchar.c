@@ -1,4 +1,4 @@
-#include "holb.h"
+#include "main.h"
 
 /**
  * main - Entery point
@@ -6,7 +6,6 @@
  * Return: Always 0
  */
 int main(void)
-
 {
 	_putchar('_');
 	_putchar('p');

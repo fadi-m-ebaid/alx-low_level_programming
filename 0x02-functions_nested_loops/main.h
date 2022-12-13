@@ -1,5 +1,5 @@
-#ifndef holb
-#define holb
+#ifndef main
+#define main
 
 int _putchar(char);
 
