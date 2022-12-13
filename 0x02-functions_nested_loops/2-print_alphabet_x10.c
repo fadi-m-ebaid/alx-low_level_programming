@@ -5,23 +5,20 @@
 *
 * Return: a-z 10 times
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-	int num = 0;
-
 	char c;
+	int i = 0;
 
-	while (num <= 9);
+	while (i <= 9)
 	{
-		c = 'a';
-		while (c <= 'z');
+		for (c = 'a'; c <= 'z'; c++)
 		{
 			_putchar(c);
-			c++;
 		}
-		
+
 		_putchar('\n');
-		num++;
+
+		i++;
 	}
 }
-
